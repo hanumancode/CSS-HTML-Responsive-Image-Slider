@@ -38,12 +38,14 @@ body {
 	padding: 0;
 	color: #fff;
 	font-size: 48px;
+	transition: 0.5s;
 }
 .container .slider .slide .caption  p {
 	margin: 0;
 	padding: 0;
 	color: #fff;
 	font-size: 18px;
+	transition: 0.5s;
 }
 .container .slider .slide.slide1 {
 	background: url(img1.jpg);
@@ -96,7 +98,41 @@ body {
 	}
 }
 
-
+@media (max-width: 768px) {
+	.container .slider .slide .caption {
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+		padding: 20px;
+	}
+	.container .slider .slide .caption  h2 {
+		margin: 0 0 10px;
+		font-size: 30px;
+	}
+	.container .slider .slide .caption  p {
+		font-size: 16px;
+	}
+	.container .slider .slide.slide1 {
+		background: url(img1.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.container .slider .slide.slide2 {
+		background: url(img2.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.container .slider .slide.slide3 {
+		background: url(img3.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+	.container .slider .slide.slide4 {
+		background: url(img4.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
 
 
 
